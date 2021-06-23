@@ -1,4 +1,4 @@
-name: scribe agent template
+name: scribe agent
 
 on: [push]
 
