@@ -17,4 +17,4 @@ jobs:
        fetch-depth: 0
     - run: agent --version
     - run: printenv
-    - run: agent snapshot -vv -n github-push -u https://scribe.free.beeceptor.com -t ${{ secrets.scribe_backend_token_id }} -H github
+    - run: agent snapshot -vv -n github-push -t ${{ secrets.scribe_backend_token_id }} -H github
