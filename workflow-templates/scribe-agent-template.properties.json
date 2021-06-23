@@ -1,0 +1,13 @@
+{
+    "name": "Scribe agent",
+    "description": "Scribe agent workflow template",
+    "iconName": "example-icon",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
